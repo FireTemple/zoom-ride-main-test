@@ -882,6 +882,15 @@ img.limoking-full-boxed-background {
     margin-right: 15px;
 }
 
+.header-style-2-wrapper .limoking-logo-right-button {
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 15px;
+}
+
 .header-style-2-wrapper .limoking-logo-left-download {
     position: absolute;
     left: 0px;

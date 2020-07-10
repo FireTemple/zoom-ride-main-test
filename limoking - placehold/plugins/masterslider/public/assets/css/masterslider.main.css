@@ -98,6 +98,7 @@
 	-webkit-transform: translateZ(0px);
 	-ms-transform: translateZ(0px);
 	transform: translateZ(0px);
+	object-fit: cover;
 }
 
 .ms-wk .ms-slide {
