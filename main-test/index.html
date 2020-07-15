@@ -46,10 +46,12 @@
 
 </head>
 
-<body data-rsssl=1
-      class="home page-template-default page page-id-5702 _masterslider _msp_version_3.2.7 woocommerce-no-js">
+<body style="position: relative" data-rsssl=1 class="home page-template-default page page-id-5702 _masterslider _msp_version_3.2.7 woocommerce-no-js">
+
 <div class="body-wrapper  float-menu" data-home=index.html>
     <!-- header -->
+
+
     <header class="limoking-header-wrapper header-style-2-wrapper limoking-header-no-top-bar">
         <div class=limoking-logo-wrapper>
             <div class="limoking-logo-container container">
@@ -167,7 +169,9 @@
             </div>
         </div>
     </header>
-
+    <div id="pop-news">
+        asdasdasdasd
+    </div>
 
     <div class=content-wrapper>
         <div class=limoking-content>
@@ -223,6 +227,7 @@
                         <div class=clear></div>
                     </div>
                 </section>
+
                 <section id=content-section-1>
                     <div class="limoking-full-size-wrapper gdlr-show-all no-skin"
                          style="padding-bottom: 0px;  background-color: #ffffff; ">
@@ -1158,6 +1163,7 @@
     });
 </script>
 
+<!--<script src="js/jquery/jquery.js"></script>-->
 
 <script src='plugins/superfish/js/superfish.js'></script>
 <script src='js/hoverIntent.min.js'></script>
@@ -1244,11 +1250,10 @@
 
     jQuery(function () {
         var masterslider_d1da2 = new MasterSlider();
-
         // slider setup
         masterslider_d1da2.setup("MS5c9b6f396d4d0", {
-            width: 1140,
-            height: 660,
+            width: 500,
+            height: 1000,
             minHeight: 0,
             space: 0,
             start: 1,
@@ -1256,6 +1261,7 @@
             swipe: true,
             mouse: false,
             keyboard: true,
+            fullwidth:true,
             layout: "fullwidth",
             wheel: false,
             autoplay: false,
@@ -1269,7 +1275,7 @@
             smoothHeight: true,
             endPause: false,
             overPause: true,
-            fillMode: "fill",
+            // fillMode: "fit",
             centerControls: true,
             startOnAppear: false,
             layersMode: "center",
@@ -1290,6 +1296,7 @@
 </script>
 
 <script>
+
     const buttons = document.querySelectorAll('.button');
     buttons.forEach(btn => {
         btn.addEventListener('click', function (e) {
@@ -1305,6 +1312,17 @@
             }, 1000)
         })
     })
+</script>
+
+<script>
+    (function($) {
+        $('#pop-news').fadeIn('slow',function() {
+            window.setTimeout(function() {
+                $('#pop-news').fadeOut();
+            }, 5000);
+        });
+    })(jQuery);
+
 </script>
 </body>
 </html>

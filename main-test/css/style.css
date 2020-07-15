@@ -107,6 +107,10 @@ i, em {
     font-style: italic;
 }
 
+body{
+    position: relative;
+}
+
 /*--- clear ---*/
 .clear {
     display: block;

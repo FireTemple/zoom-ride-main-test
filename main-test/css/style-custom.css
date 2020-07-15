@@ -1,3 +1,5 @@
+
+
 html.ltie9 body, body {
     min-width: 1140px;
 }
@@ -1301,3 +1303,44 @@ html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,
     color: #f6961d;
     margin: 0 auto;
 }
+
+.limoking-personnel-item-wrapper .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 72px;
+}
+.limoking-personnel-item-wrapper .title h2{
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #f6961d;
+}
+
+.limoking-color-wrapper .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 72px;
+    color: #f6961d;
+    font-size: 43px;
+}
+
+#pop-news{
+    width: 60%;
+    height: 400px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 9999;
+    transform: translate(-50%,-50%);
+    display: flex;
+    background: url(../images/bg/bg5.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
