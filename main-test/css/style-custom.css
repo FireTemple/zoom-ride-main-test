@@ -1385,3 +1385,9 @@ a.button:hover{
     text-align: center;
 }
 
+.join-us{
+    align-items: center;
+}
+.join-us a{
+    margin-top: 6px;
+}

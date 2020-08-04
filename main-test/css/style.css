@@ -909,6 +909,7 @@ img.limoking-full-boxed-background {
     left: 0px;
     right: 0px;
     z-index: 99;
+    display: flex;
 }
 
 .header-inner-header-style-2 .limoking-navigation {
